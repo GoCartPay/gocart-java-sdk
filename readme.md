@@ -40,7 +40,7 @@ Refer to [GoCart Documentation](https://docs.gocartpay.com/docs) for additional 
 - GOCART_API_KEY = {your_api_key}
 
 ### Authentication
-The GoCart APi uses HMAC to authenticate most requests. The gocart-java-sdk will do HMAC authorization for you.
+The GoCart APi uses MAC with SHA-256 to authenticate most requests. The gocart-java-sdk will do MAC with SHA-256 authorization for you.
 You just need to have your [properties set](#configuration-required-to-use-the-sdk).
 
 ## Examples of How To Use The SDK
